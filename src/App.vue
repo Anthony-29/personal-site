@@ -55,37 +55,5 @@ body {
   margin: 0 auto;
   max-width: 80em;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-.nav-name{
-  font-size: 1.5em;
-}
-
-.fa-bars{
-  padding: 5px;
-  font-size: 1.4em;
-  cursor: pointer;
-}
-
-.ham-menu:hover{
-  background: rgb(10, 10, 10);
-}
-
-li {
-  float: left;
-}
-
-li.lists {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 </style>
