@@ -19,25 +19,45 @@
       aria-labelledby="offcanvasRightLabel"
     >
       <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <h5 id="offcanvasRightLabel">Menu</h5>
         <button
+          id="close-btn"
           type="button"
-          class="btn-close text-reset"
+          class="btn"
           data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
+        >
+          <i class="fas fa-times-circle"></i>
+        </button>
       </div>
       <div class="offcanvas-body">
-        <router-link to="/">Home</router-link>
-        <router-link to="/Projects">Projects</router-link>
-        <router-link to="/About">About</router-link>
-        <router-link to="/Contact">Contact</router-link>
+        <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <!-- Adding the routing to the menu -->
+            <router-link class="link link--metis" to="/">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <!-- Adding the routing to the menu -->
+            <router-link class="link link--metis" to="/Projects"
+              >Projects</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <!-- Adding the routing to the menu -->
+            <router-link class="link link--metis" to="/About"
+              >About</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <!-- Adding the routing to the menu -->
+            <router-link class="link link--metis" to="/Contact"
+              >Contact</router-link
+            >
+          </li>
+        </ul>
       </div>
     </div>
   </div>
   <router-view />
-  <!-- 
-            -->
 </template>
 
 <style scoped>
@@ -55,5 +75,4 @@ body {
   margin: 0 auto;
   max-width: 80em;
 }
-
 </style>
