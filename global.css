@@ -1,10 +1,14 @@
+* {
+  background-color: #181a1e;
+}
+
 /* Nav */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #181a1e;
 }
 
 .nav-name {
@@ -17,9 +21,9 @@ ul {
   cursor: pointer;
 }
 
-.ham-menu:hover {
+/* .ham-menu:hover {
   background: rgb(10, 10, 10);
-}
+} */
 
 li {
   float: left;
@@ -38,13 +42,12 @@ div.offcanvas {
   color: white;
 }
 
-div.offcanvas-header #close-btn{
-    color: white;
-    font-size: 1.5em;
+div.offcanvas-header #close-btn {
+  color: white;
+  font-size: 1.5em;
 }
 
 /* ********************* */
-
 
 .link {
   cursor: pointer;
@@ -53,7 +56,6 @@ div.offcanvas-header #close-btn{
   color: white;
   text-decoration: none;
   font-size: 2em;
-
 }
 .link::before,
 .link::after {
@@ -92,33 +94,60 @@ div.offcanvas-header #close-btn{
 
 /* Home Page */
 .home-h1 {
-  font-size: 3em;
+  font-size: 4em;
   /* color: var(--main-yellow); */
   font-family: "Mulish", sans-serif;
+  color: rgb(170, 167, 167);
+  margin: 125px 0 30px;
+  padding: 0 20px;
+}
+
+.home-body-text {
+  color: rgb(170, 167, 167);
+  padding: 0 20px;
+}
+
+.btn-projects {
+  font-size: 1.4em;
+  display: inline-block;
+  margin: 30px 20px;
+  background-color: #4d6cc1;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.home-text-wrapper {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.img-wrapper {
+  margin: auto;
+}
+
+.img-wrapper .home-code-symbol {
+  width: 300px;
 }
 
 /* Media queries */
-@media only screen and (max-width: 800px) {
-  .layer1 {
-    background-image: url("src/assets/media-curve-700.svg");
-  }
-  .home-h1 {
-    margin-top: 30px;
-    font-size: 2.5em;
-    margin-right: 40px;
-  }
+@media only screen and (max-width: 1000px) {
+    .home-h1{
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 540px) {
-  .layer1 {
-    background-image: url("src/assets/media-curve.svg");
-  }
-
   nav ul {
     font-size: 2.5em;
   }
 
   .lbl-name {
     font-size: 1.5em;
+  }
+  .home-h1 {
+    font-size: 2.8em;
   }
 }
