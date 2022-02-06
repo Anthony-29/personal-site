@@ -1,63 +1,65 @@
 <template>
-  <div id="nav">
-    <ul>
-      <li class="lists nav-name">Anthony-Paul Fontana</li>
-      <li class="lists ham-menu" style="float: right">
-        <i
-          class="fas fa-bars"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
-        ></i>
-      </li>
-    </ul>
+  <div class="wrapper">
+    <div id="nav">
+      <ul>
+        <li class="lists nav-name">Anthony-Paul Fontana</li>
+        <li class="lists ham-menu" style="float: right">
+          <i
+            class="fas fa-bars"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          ></i>
+        </li>
+      </ul>
 
-    <div
-      class="offcanvas offcanvas-end"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-    >
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Menu</h5>
-        <button
-          id="close-btn"
-          type="button"
-          class="btn"
-          data-bs-dismiss="offcanvas"
-        >
-          <i class="fas fa-times-circle"></i>
-        </button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <!-- Adding the routing to the menu -->
-            <router-link class="link link--metis" to="/">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <!-- Adding the routing to the menu -->
-            <router-link class="link link--metis" to="/Projects"
-              >Projects</router-link
-            >
-          </li>
-          <li class="nav-item">
-            <!-- Adding the routing to the menu -->
-            <router-link class="link link--metis" to="/About"
-              >About</router-link
-            >
-          </li>
-          <li class="nav-item">
-            <!-- Adding the routing to the menu -->
-            <router-link class="link link--metis" to="/Contact"
-              >Contact</router-link
-            >
-          </li>
-        </ul>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menu</h5>
+          <button
+            id="close-btn"
+            type="button"
+            class="btn"
+            data-bs-dismiss="offcanvas"
+          >
+            <i class="fas fa-times-circle"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <!-- Adding the routing to the menu -->
+              <router-link class="link link--metis" to="/">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <!-- Adding the routing to the menu -->
+              <router-link class="link link--metis" to="/Projects"
+                >Projects</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <!-- Adding the routing to the menu -->
+              <router-link class="link link--metis" to="/About"
+                >About</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <!-- Adding the routing to the menu -->
+              <router-link class="link link--metis" to="/Contact"
+                >Contact</router-link
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+    <router-view />
   </div>
-  <router-view />
 </template>
 
 <style scoped>
