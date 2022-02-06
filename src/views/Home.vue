@@ -26,9 +26,7 @@
 export default {};
 </script>
 
-<style scoped>
-* {
-  padding: 0;
-  margin: 0;
-}
+<style>
+*{
+background-color: #181a1e;}
 </style>
