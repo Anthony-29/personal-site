@@ -246,8 +246,13 @@ div.card-body,
     font-size: 2.8em;
   }
 
+
   div.card {
     height: 350px;
+  }
+
+  div.card img{
+    height: 175px;
   }
 
     .about-h1{
