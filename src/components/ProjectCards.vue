@@ -1,43 +1,119 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-11">
+      <div class="col-lg-6 col-md-11 card-wrapper">
         <div class="card mb-3">
           <img
-            src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
-            alt="..."
+            src="../assets/bella-rose.png"
+            alt="Image of the bella rose designs website"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Bella Rose Designs</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Custom made website for a family friends crafting business.
             </p>
             <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              Visit it
+              <a
+                href="https://bellarosedesign.netlify.app/index.html"
+                class="card-links"
+                target="__blank"
+                >here</a
+              >
             </p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-11">
+      <div class="col-lg-6 col-md-11 card-wrapper">
         <div class="card mb-3">
-          <img
-            src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
-            alt="..."
-          />
+          <img src="../assets/produce-inventory.png" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Produce Inventory</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Keep inventory of all your produce using their plu code.
             </p>
             <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              View the code
+              <a
+                href="https://github.com/Anthony-29/Inventory-App"
+                class="card-links"
+                target="__blank"
+              >
+                here</a
+              >
             </p>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Second row -->
+    <div class="row">
+      <div class="col-lg-6 col-md-11 card-wrapper">
+        <div class="card mb-3">
+          <img src="../assets/Weather-App.png" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">
+              Get dynamic weather information based on city inputted
+            </p>
+            <p class="card-text">
+              View the code
+              <a
+                href="https://github.com/Anthony-29/AccuWeather_API_App"
+                class="card-links"
+                target="__blank"
+              >
+                here</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-11 card-wrapper">
+        <div class="card mb-3">
+          <img src="../assets/humber-css.png" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Humber Captone Project</h5>
+            <p class="card-text">
+              Group capstone project from my final year at Humber with a
+              hardware and app component
+            </p>
+            <p class="card-text">
+              View App code
+              <a
+                href="https://github.com/Anthony-29/Humber-Group-Capstone-Project"
+                class="card-links"
+                target="__blank"
+              >
+                here</a
+              >
+              and View Project page
+              <a
+                href="https://appliedtechnology.humber.ca/shows/ict-capstone-projects/thesis-projects/covid-security-system.html"
+                class="card-links"
+                target="__blank"
+              >
+                here</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Github -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="github-h3">
+          Check out my
+          <a
+            href="https://github.com/Anthony-29?tab=repositories"
+            target="__blank"
+            >github</a
+          >
+          for more projects
+        </h2>
       </div>
     </div>
   </div>
@@ -47,16 +123,4 @@
 export default {};
 </script>
 
-<style scoped>
-div.card {
-  margin: 50px auto;
-}
-
-div.card-body,
-.card-text,
-.card-title,
-.text-muted {
-  background-color: rgb(255, 255, 255);
-  color: white;
-}
-</style>
+<style scoped></style>

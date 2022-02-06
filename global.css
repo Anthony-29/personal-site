@@ -150,7 +150,43 @@ h1.projects-h1 {
   color: white;
   margin: 40px auto;
   font-size: 3em;
+}
 
+div.card {
+  margin: 50px auto;
+  height: 500px;
+}
+
+div.card-body{
+  margin-bottom: 30px;
+}
+
+div.card-body,
+.card-text,
+.card-title,
+.text-muted {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.card-links{
+  background-color: white;
+  color: black;
+}
+
+.github-h3{
+  color: white;
+  margin: 40px auto;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+
+.github-h3 a{
+  color: white;
+}
+
+.github-h3 a:hover{
+  color: rgb(206, 204, 204);
 }
 
 /* Media queries */
@@ -173,5 +209,9 @@ h1.projects-h1 {
   }
   .home-h1 {
     font-size: 2.8em;
+  }
+
+  div.card {
+    height: 390px;
   }
 }
