@@ -13,6 +13,7 @@ ul {
 
 .nav-name {
   font-size: 1.5em;
+  font-family: "Mulish", sans-serif;
 }
 
 .fa-bars {
@@ -45,6 +46,8 @@ div.offcanvas {
 div.offcanvas-header #close-btn {
   color: white;
   font-size: 1.5em;
+  font-family: "Mulish", sans-serif;
+
 }
 
 /* ********************* */
@@ -72,7 +75,7 @@ div.offcanvas-header #close-btn {
   /* show by default */
 }
 .link--metis {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Mulish", sans-serif;
   text-transform: uppercase;
 }
 .link--metis::before {
@@ -127,6 +130,7 @@ div.offcanvas-header #close-btn {
 
 .pic-wrapper {
   padding-right: 50px;
+  padding-bottom: 30px;
 }
 .pic-ofme {
   margin-top: 105px;
@@ -157,4 +161,5 @@ div.offcanvas-header #close-btn {
   .home-h1 {
     font-size: 2.8em;
   }
+
 }
