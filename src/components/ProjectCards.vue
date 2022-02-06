@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-11 card-wrapper">
+      <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
           <img
             src="../assets/bella-rose.png"
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-11 card-wrapper">
+      <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
           <img src="../assets/produce-inventory.png" alt="..." />
           <div class="card-body">
@@ -48,7 +48,7 @@
     </div>
     <!-- Second row -->
     <div class="row">
-      <div class="col-lg-6 col-md-11 card-wrapper">
+      <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
           <img src="../assets/Weather-App.png" alt="..." />
           <div class="card-body">
@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-11 card-wrapper">
+      <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
           <img src="../assets/humber-css.png" alt="..." />
           <div class="card-body">
@@ -101,22 +101,7 @@
       </div>
     </div>
   </div>
-  <!-- Github -->
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="github-h3">
-          Check out my
-          <a
-            href="https://github.com/Anthony-29?tab=repositories"
-            target="__blank"
-            >github</a
-          >
-          for more projects
-        </h2>
-      </div>
-    </div>
-  </div>
+
 </template>
 
 <script>

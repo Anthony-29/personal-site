@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   background-color: #181a1e;
   height: 100vh;
 }
@@ -155,9 +155,14 @@ h1.projects-h1 {
 div.card {
   margin: 50px auto;
   height: 500px;
+  transition-duration: 1s;
 }
 
-div.card-body{
+div.card:hover {
+  transform: scale(1.03);
+}
+
+div.card-body {
   margin-bottom: 30px;
 }
 
@@ -169,25 +174,47 @@ div.card-body,
   color: rgb(0, 0, 0);
 }
 
-.card-links{
+.card-links {
   background-color: white;
   color: black;
 }
 
-.github-h3{
+.github-h3 {
   color: white;
   margin: 40px auto;
   text-align: center;
   /* padding: 0 10px; */
 }
 
-.github-h3 a{
+.github-h3 a {
   color: white;
 }
 
-.github-h3 a:hover{
+.github-h3 a:hover {
   color: rgb(206, 204, 204);
 }
+
+/* ********************** */
+
+/* About Page */
+
+/* ********************** */
+.about-h1{
+  color: white;
+  margin: 40px 0px;
+}
+
+.about-text{
+  color: white;
+  font-size: 1.5em;
+  margin: auto;
+  text-align: center;
+}
+
+.about-bold{
+  font-weight: bold;
+}
+
 
 /* Media queries */
 @media only screen and (max-width: 1000px) {
@@ -196,6 +223,14 @@ div.card-body,
   }
   .pic-ofme {
     margin: 20px auto 0;
+  }
+
+  .about-h1{
+    padding: 0 20px;
+  }
+
+  .about-text{
+    padding: 0 20px;
   }
 }
 
@@ -213,5 +248,9 @@ div.card-body,
 
   div.card {
     height: 390px;
+  }
+
+    .about-h1{
+    text-align: center;
   }
 }
