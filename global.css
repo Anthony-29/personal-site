@@ -358,9 +358,9 @@ fieldset {
     height: fit-content;
   }
 
-  /* div.card img {
+  div.card img {
     height: 175px;
-  } */
+  }
 
   .about-h1 {
     text-align: center;
