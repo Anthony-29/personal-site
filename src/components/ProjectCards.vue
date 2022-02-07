@@ -75,8 +75,7 @@
           <div class="card-body">
             <h5 class="card-title">Humber Captone Project</h5>
             <p class="card-text">
-              Group capstone project from my final year at Humber with a
-              hardware and app component
+              Android app and hardware device for final a final project
             </p>
             <p class="card-text">
               View App code
