@@ -4,10 +4,11 @@
       <div class="col-3"></div>
       <div class="col-lg-6 col-md-12">
         <div class="container-contact">
-          <form id="contact">
+          <form id="contact" @submit.prevent="sendEmail">
             <h3 class="contact-h3">Contact Me!</h3>
             <fieldset>
               <input
+                v-model="name"
                 placeholder="Your name"
                 type="text"
                 tabindex="1"
@@ -17,6 +18,7 @@
             </fieldset>
             <fieldset>
               <input
+                v-model="email"
                 placeholder="Your Email Address"
                 type="email"
                 tabindex="2"
@@ -25,6 +27,7 @@
             </fieldset>
             <fieldset>
               <textarea
+                v-model="msg"
                 placeholder="Type your message here...."
                 tabindex="5"
                 required
@@ -72,7 +75,45 @@
 </template>
 
 <script>
-export default {};
+import emailjs from "@emailjs/browser";
+
+export default {
+  name: "Contact",
+  data() {
+    return {
+      name: "",
+      email: "",
+      msg: "",
+    };
+  },
+  methods: {
+    sendEmail() {
+      var templateParams = {
+        from_name: this.name,
+        message: this.msg,
+        from_email: this.email,
+        reply_to: this.email,
+      };
+      console.log(templateParams);
+
+      emailjs
+        .send(
+          "service_0c0hcro",
+          "template_r385bgf",
+          templateParams,
+          "user_k3Kal4x9UGkKkuSES0IQJ"
+        )
+        .then(
+          function (response) {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
+    },
+  },
+};
 </script>
 
 <style scoped>
