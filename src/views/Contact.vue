@@ -111,6 +111,10 @@ export default {
             console.log("FAILED...", error);
           }
         );
+
+        this.msg = ""
+        this.email = ""
+        this.name = ""
     },
   },
 };
