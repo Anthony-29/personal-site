@@ -23,10 +23,6 @@ ul {
   cursor: pointer;
 }
 
-/* .ham-menu:hover {
-  background: rgb(10, 10, 10);
-} */
-
 li {
   float: left;
 }
@@ -48,6 +44,10 @@ div.offcanvas-header #close-btn {
   color: white;
   font-size: 1.5em;
   font-family: "Mulish", sans-serif;
+}
+
+#offcanvasRight{
+  width: 350px;
 }
 
 /* ********************* */
@@ -311,7 +311,7 @@ fieldset {
 
 .socials {
   color: white;
-  margin: auto 20px;
+  margin: 0 20px 30px;
   font-size: 3em;
 }
 
