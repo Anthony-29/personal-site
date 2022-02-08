@@ -10,7 +10,7 @@
           <div class="card-body">
             <h5 class="card-title">Bella Rose Designs</h5>
             <p class="card-text">
-              Custom made website for a family friends crafting business.
+              Custom website for a family friends crafting business.
             </p>
             <p class="card-text">
               Visit it

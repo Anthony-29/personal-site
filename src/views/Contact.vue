@@ -112,9 +112,9 @@ export default {
           }
         );
 
-        this.msg = ""
-        this.email = ""
-        this.name = ""
+      this.msg = "";
+      this.email = "";
+      this.name = "";
     },
   },
 };
