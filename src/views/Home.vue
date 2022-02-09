@@ -15,8 +15,10 @@
           >
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 pic-wrapper">
-        <div class="pic-ofme"></div>
+      <div class="col-lg-4 col-md-12">
+        <div class="pic-wrapper">
+          <img class="img-of-me" src="../assets/picOfMe.svg" alt="" />
+        </div>
       </div>
     </div>
   </div>
@@ -27,6 +29,7 @@ export default {};
 </script>
 
 <style>
-*{
-background-color: #181a1e;}
+* {
+  background-color: #181a1e;
+}
 </style>

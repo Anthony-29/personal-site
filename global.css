@@ -136,14 +136,14 @@ div.nav-socials{
 }
 
 .pic-wrapper {
-  padding-right: 50px;
+  /* padding-right: 50px; */
   padding-bottom: 30px;
 }
-.pic-ofme {
-  margin-top: 105px;
-  width: 300px;
-  height: 400px;
-  border: 5px solid white;
+.img-of-me{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 400px;
 }
 
 /* **************************** */
