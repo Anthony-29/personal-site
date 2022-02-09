@@ -53,7 +53,7 @@ div.offcanvas-header #close-btn {
   width: 350px;
 }
 
-div.nav-socials{
+div.nav-socials {
   margin: 60px 0;
 }
 
@@ -110,6 +110,7 @@ div.nav-socials{
   color: rgb(170, 167, 167);
   margin: 125px 0 30px;
   padding: 0 20px;
+  transition-duration: 1s;
 }
 
 .home-body-text {
@@ -139,11 +140,11 @@ div.nav-socials{
   /* padding-right: 50px; */
   padding-bottom: 30px;
 }
-.img-of-me{
+.img-of-me {
   display: block;
-  text-align: center;
   margin: auto;
   width: 400px;
+  transition-duration: 1s;
 }
 
 /* **************************** */
@@ -169,7 +170,7 @@ div.card:hover {
   transform: scale(1.03);
 }
 
-div.card img{
+div.card img {
   max-height: 312px;
 }
 
@@ -238,7 +239,6 @@ div.card-body,
   margin: 0 auto;
   position: relative;
 }
-
 
 #contact {
   background: #f9f9f9;
@@ -359,6 +359,10 @@ fieldset {
     font-size: 2.8em;
   }
 
+  .img-of-me {
+    width: 300px;
+  }
+
   div.card {
     height: fit-content;
   }
@@ -372,7 +376,7 @@ fieldset {
     font-size: 2em;
   }
 
-  .about-text{
+  .about-text {
     text-align: left;
   }
 }
