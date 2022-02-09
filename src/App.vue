@@ -69,8 +69,7 @@
             <a
               href="https://drive.google.com/file/d/166wv_UE29K7QZYzuKTGeRM7V4uSaIhnF/view?usp=sharing"
               target="__blank"
-              ><i class="fas fa-file socials" title="Resume"></i
-            ></a>
+              ><i class="fas fa-file-pdf socials"  title="Resume"></i></a>
           </div>
         </div>
       </div>
