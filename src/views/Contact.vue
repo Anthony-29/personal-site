@@ -49,6 +49,7 @@
       <div class="col-3"></div>
     </div>
   </div>
+  <EmailPopUp v-if="showPopUp" />
   <div class="container">
     <div class="row">
       <div class="col-3"></div>
@@ -77,14 +78,19 @@
 
 <script>
 import emailjs from "@emailjs/browser";
+import EmailPopUp from "../components/EmailPopUp.vue";
 
 export default {
   name: "Contact",
+  components: {
+    EmailPopUp,
+  },
   data() {
     return {
       name: "",
       email: "",
       msg: "",
+      showPopUp: false,
     };
   },
   methods: {
@@ -96,7 +102,10 @@ export default {
         reply_to: this.email,
       };
       console.log(templateParams);
-
+      setTimeout(() => {
+        this.showPopUp = !this.showPopUp;
+      }, 3000);
+      this.showPopUp = !this.showPopUp;
       emailjs
         .send(
           "service_0c0hcro",
