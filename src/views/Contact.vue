@@ -49,7 +49,7 @@
       <div class="col-3"></div>
     </div>
   </div>
-  <EmailPopUp v-if="showPopUp" />
+  <EmailPopUp v-if="!showPopUp" />
   <div class="container">
     <div class="row">
       <div class="col-3"></div>

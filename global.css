@@ -396,5 +396,6 @@ fieldset {
   }
   .alert{
     width: 94%;
+    margin-bottom: 10px;
 }
 }
