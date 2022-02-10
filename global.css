@@ -318,6 +318,7 @@ fieldset {
   text-align: center;
   width: 50%;
   margin: auto;
+  margin-bottom: 10px;
   transition-duration: 1s;
 }
 
@@ -358,6 +359,7 @@ fieldset {
   }
   .alert {
     width: 75%;
+    margin-bottom: 10px;
   }
 }
 
