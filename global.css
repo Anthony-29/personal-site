@@ -314,15 +314,14 @@ fieldset {
   border: 1px solid #aaa;
 }
 
-.alert{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    transition-duration: 1s;
-
+.alert {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  transition-duration: 1s;
 }
 
-.alert .popUp-h3{
+.alert .popUp-h3 {
   background-color: inherit;
 }
 
@@ -357,9 +356,9 @@ fieldset {
   .about-text {
     padding: 0 20px;
   }
-    .alert{
+  .alert {
     width: 75%;
-}
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -394,8 +393,12 @@ fieldset {
   .about-text {
     text-align: left;
   }
-  .alert{
+  #contact {
+    margin-top: 10px;
+  }
+
+  .alert {
     width: 94%;
     margin-bottom: 10px;
-}
+  }
 }
