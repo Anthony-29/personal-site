@@ -4,7 +4,7 @@
       <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
           <img
-            src="../assets/bella-rose.png"
+            src="../assets/bella-rose-min.png"
             alt="Image of the bella rose designs website"
           />
           <div class="card-body">
@@ -26,7 +26,10 @@
       </div>
       <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
-          <img src="../assets/produce-inventory.png" alt="..." />
+          <img
+            src="../assets/produce-inventory-min.png"
+            alt="Produce Inventory"
+          />
           <div class="card-body">
             <h5 class="card-title">Produce Inventory</h5>
             <p class="card-text">
@@ -50,7 +53,7 @@
     <div class="row">
       <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
-          <img src="../assets/Weather-App.png" alt="..." />
+          <img src="../assets/Weather-App-min.png" alt="Weather App" />
           <div class="card-body">
             <h5 class="card-title">Weather App</h5>
             <p class="card-text">
@@ -71,7 +74,10 @@
       </div>
       <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
-          <img src="../assets/humber-css.png" alt="..." />
+          <img
+            src="../assets/humber-css-min.png"
+            alt="Humber Capstone Project Website"
+          />
           <div class="card-body">
             <h5 class="card-title">Humber Captone Project</h5>
             <p class="card-text">
