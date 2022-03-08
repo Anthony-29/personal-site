@@ -31,24 +31,47 @@
           </button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
+          <ul
+            @click="closeNav"
+            class="navbar-nav nav justify-content-end flex-grow-1 pe-3"
+          >
+            <li
+              class="nav-item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
               <!-- Adding the routing to the menu -->
               <router-link class="link link--metis" to="/">Home</router-link>
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
               <!-- Adding the routing to the menu -->
               <router-link class="link link--metis" to="/Projects"
                 >Projects</router-link
               >
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
               <!-- Adding the routing to the menu -->
               <router-link class="link link--metis" to="/About"
                 >About</router-link
               >
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
               <!-- Adding the routing to the menu -->
               <router-link class="link link--metis" to="/Contact"
                 >Contact</router-link
@@ -69,7 +92,8 @@
             <a
               href="https://drive.google.com/file/d/166wv_UE29K7QZYzuKTGeRM7V4uSaIhnF/view?usp=sharing"
               target="__blank"
-              ><i class="fas fa-file-pdf socials"  title="Resume"></i></a>
+              ><i class="fas fa-file-pdf socials" title="Resume"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -77,6 +101,12 @@
     <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
 
 <style scoped>
 @import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
@@ -91,6 +121,5 @@ body {
 
 .container {
   margin: 0 auto;
-
 }
 </style>
