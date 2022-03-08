@@ -3,6 +3,26 @@
     <div class="row">
       <div class="col-lg-6 col-md-12 card-wrapper">
         <div class="card mb-3">
+          <img src="../assets/the-lab.png" alt="The Lab Website" />
+          <div class="card-body">
+            <h5 class="card-title">The Lab</h5>
+            <p class="card-text">Custom website made for The Lab LLC Nonprofit Organization</p>
+            <p class="card-text">
+              Visit it
+              <a
+                href="https://thelabllc.netlify.app"
+                class="card-links"
+                target="__blank"
+              >
+                here</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 card-wrapper">
+        <div class="card mb-3">
           <img
             src="../assets/bella-rose-min.png"
             alt="Image of the bella rose designs website"
@@ -19,30 +39,6 @@
                 class="card-links"
                 target="__blank"
                 >here</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12 card-wrapper">
-        <div class="card mb-3">
-          <img
-            src="../assets/produce-inventory-min.png"
-            alt="Produce Inventory"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Produce Inventory</h5>
-            <p class="card-text">
-              Keep inventory of all your produce using their plu code.
-            </p>
-            <p class="card-text">
-              View the code
-              <a
-                href="https://github.com/Anthony-29/Inventory-App"
-                class="card-links"
-                target="__blank"
-              >
-                here</a
               >
             </p>
           </div>
