@@ -91,6 +91,6 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 80em;
+
 }
 </style>
