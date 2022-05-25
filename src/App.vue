@@ -90,7 +90,7 @@
               ><i class="fab fa-github-square socials" title="Github"></i
             ></a>
             <a
-              href="https://drive.google.com/file/d/166wv_UE29K7QZYzuKTGeRM7V4uSaIhnF/view?usp=sharing"
+              href="https://drive.google.com/file/d/15k4hIz0vr-R4Gr2_RfEDn-J0GI9417Fx/view?usp=sharing"
               target="__blank"
               ><i class="fas fa-file-pdf socials" title="Resume"></i
             ></a>
